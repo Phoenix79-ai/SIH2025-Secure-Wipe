@@ -51,18 +51,23 @@ We designed a **secure, open-source, cross-platform data wiping solution** that:
 
    bash:
    git clone https://github.com/Phoenix79-ai/SIH2025-Secure-Wipe.git
+   
    cd SIH2025-Secure-Wipe/core
+
    chmod +x secure_erase.sh
    
-2. Run secure erase:
+3. Run secure erase:
 
    bash:
+
    sudo ./secure_erase.sh /dev/sdX        #X -> refers to your disk number
    
-3. On success/failure certificate is generated :
+5. On success/failure certificate is generated :
 
    core/Certificates/
-    ├── wipe_report_<device>.pdf
+
+     ├── wipe_report_<device>.pdf
+
     └── wipe_report_<device>.json
 
 🎥 Demo

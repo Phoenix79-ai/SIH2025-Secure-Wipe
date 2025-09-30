@@ -1,0 +1,13 @@
+{
+  "problem_code": "SIH25070",
+  "device": "/dev/loop20",
+  "method_used": "fallback_blkdiscard+shred",
+  "start_time_utc": "2025-09-30T12:09:22Z",
+  "end_time_utc": "2025-09-30T12:12:22Z",
+  "status": "FallbackDegraded+VerifyFail",
+  "notes": blkdiscard unavailable/failed; performed shred+dd only.\nRandom-sector verify found non-blank data.,
+  "host": "pop-os",
+  "kernel": "6.12.10-76061203-generic",
+  "tool": "secure_erase.sh",
+  "verify_samples": 256
+}
